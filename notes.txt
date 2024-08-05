@@ -1,1 +1,15 @@
 React State and Events.
+use the state hook to create state within the compnent.
+- state is data that changes over time in your component.state must be initializes in the component 
+by calling useState.
+- upfdating state by calling setState will cause our component to re-rnder automatically 
+
+DETERMING WHEN TO ADD STATE.
+- To determine whether whether to use state is to check whether the data is static (does not change)
+or wherther the data changes(is dynamic.)
+- if data is dynamic menaingit changes then we use useState.
+-Questions to decide if we need to use state.
+  1. Is it passed in from the parents through props- if it is do not use state.
+  2. can you compute it based on any other state ot props in your component- if so it isnt state.
+  3. does it remian ucahnges overtime- if so it propbably isnt state.
+  
